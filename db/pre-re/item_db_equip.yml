@@ -41080,7 +41080,7 @@ Body:
     Flags:
         NoConsume: true
     Delay:
-        Duration: 3000
+        Duration: 0
         Status: All_Riding_Reuse_Limit
     Trade:
         NoDrop: true
@@ -41096,3 +41096,11 @@ Body:
     UnEquipScript: |
         if (ismounting())
            setmounting();
+  - Id: 480058
+    AegisName: C_Wing_Of_Angel_Move_GD
+    Name: Costume Wavy Golden Angel Wings
+    Type: Armor
+    Locations:
+        Costume_Garment: true
+    ArmorLevel: 1
+    View: 75
