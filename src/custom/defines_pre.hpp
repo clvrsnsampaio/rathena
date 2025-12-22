@@ -1,14 +1,15 @@
-// Copyright (c) rAthena Dev Teams - Licensed under GNU GPL
-// For more information, see LICENCE in the main folder
+// Copyright (c) rAthena Dev Teams - Licenciado sob GNU GPL
+// Para mais informações, veja LICENÇA na pasta principal
 
 #ifndef CONFIG_CUSTOM_DEFINES_PRE_HPP
 #define CONFIG_CUSTOM_DEFINES_PRE_HPP
 
 /**
- * rAthena configuration file (http://rathena.org)
- * For detailed guidance on these check http://rathena.org/wiki/SRC/config/
+ * Arquivo de configuração rAthena (http://rathena.org)
+ * Para orientações detalhadas sobre estas opções, verifique http://rathena.org/wiki/SRC/config/
  **/
 
-
+// Versão do pacote (Packet Version) do executável do jogo
+#define PACKETVER 20220330
 
 #endif /* CONFIG_CUSTOM_DEFINES_PRE_HPP */

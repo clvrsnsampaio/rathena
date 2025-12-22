@@ -1,76 +1,76 @@
-// Copyright (c) rAthena Dev Teams - Licensed under GNU GPL
-// For more information, see LICENCE in the main folder
+// Copyright (c) rAthena Dev Teams - Licenciado sob GNU GPL
+// Para mais informações, veja LICENÇA na pasta principal
 
 #ifndef CONFIG_RENEWAL_HPP
 #define CONFIG_RENEWAL_HPP
 
-//quick option to disable all renewal option, used by ./configure
-//#define PRERE
+// Opção rápida para desabilitar todas as opções renewal, usado pelo ./configure
+#define PRERE
 #ifndef PRERE
-/**
- * rAthena configuration file (http://rathena.org)
- * For detailed guidance on these check http://rathena.org/wiki/SRC/config/
- **/
-
 
 /**
- * @INFO: This file holds general-purpose renewal settings, for class-specific ones check /src/config/classes folder
+ * Arquivo de configuração rAthena (http://rathena.org)
+ * Para orientações detalhadas sobre estas opções, verifique http://rathena.org/wiki/SRC/config/
  **/
 
-/// Game renewal server mode
-/// (disable by commenting the line)
+/**
+ * @INFO: Este arquivo contém configurações gerais de renewal; para configurações específicas de classes, verifique a pasta /src/config/classes
+ **/
+
+/// Modo de servidor Game Renewal
+/// (desabilite comentando a linha)
 ///
-/// Leave this line to enable renewal specific support such as renewal formulas
+/// Deixe esta linha para habilitar o suporte específico de renewal, como as fórmulas de renewal
 #define RENEWAL
 
-/// Renewal cast time
-/// (disable by commenting the line)
+/// Tempo de conjuração (Cast time) Renewal
+/// (desabilite comentando a linha)
 ///
-/// Leave this line to enable renewal casting time algorithms and enable fixed cast bonuses.
-/// See also default_fixed_castrate in conf/battle/skill.conf for default fixed cast time (default is 20%).
-/// Cast time is altered be 2 portion, Variable Cast Time (VCT) and Fixed Cast Time (FCT).
-/// By default FCT is 20% of VCT (some skills aren't)
-/// - VCT is decreased by DEX * 2 + INT.
-/// - FCT is NOT reduced by stats, reduced by equips or buffs.
-/// Example:
-///  On a skill whos cast time is 10s, only 8s may be reduced. the other 2s are part of a FCT
+/// Deixe esta linha para habilitar os algoritmos de tempo de conjuração renewal e habilitar bônus de cast fixo.
+/// Veja também default_fixed_castrate em conf/battle/skill.conf para o tempo de cast fixo padrão (o padrão é 20%).
+/// O tempo de cast é alterado por 2 partes: Tempo de Cast Variável (VCT) e Tempo de Cast Fixo (FCT).
+/// Por padrão, o FCT é 20% do VCT (algumas habilidades não seguem isso).
+/// - VCT é reduzido por DEX * 2 + INT.
+/// - FCT NÃO é reduzido por atributos, apenas por equipamentos ou buffs.
+/// Exemplo:
+///  Em uma habilidade cujo tempo de cast é 10s, apenas 8s podem ser reduzidos; os outros 2s fazem parte do FCT.
 #define RENEWAL_CAST
 
-/// Renewal drop rate algorithms
-/// (disable by commenting the line)
+/// Algoritmos de taxa de drop Renewal
+/// (desabilite comentando a linha)
 ///
-/// Leave this line to enable renewal item drop rate algorithms
-/// While enabled a special modified based on the difference between the player and monster level is applied
-/// Based on the http://irowiki.org/wiki/Drop_System#Level_Factor table
+/// Deixe esta linha para habilitar os algoritmos de taxa de drop de itens renewal.
+/// Enquanto estiver habilitado, um modificador especial baseado na diferença entre o nível do jogador e do monstro é aplicado.
+/// Baseado na tabela de http://irowiki.org/wiki/Drop_System#Level_Factor
 #define RENEWAL_DROP
 
-/// Renewal exp rate algorithms
-/// (disable by commenting the line)
+/// Algoritmos de taxa de EXP Renewal
+/// (desabilite comentando a linha)
 ///
-/// Leave this line to enable renewal item exp rate algorithms
-/// While enabled a special modified based on the difference between the player and monster level is applied
+/// Deixe esta linha para habilitar os algoritmos de taxa de EXP de itens renewal.
+/// Enquanto estiver habilitado, um modificador especial baseado na diferença entre o nível do jogador e do monstro é aplicado.
 #define RENEWAL_EXP
 
-/// Renewal level modifier on damage
-/// (disable by commenting the line)
+/// Modificador de nível Renewal no dano
+/// (desabilite comentando a linha)
 ///
-// Leave this line to enable renewal base level modifier on skill damage (selected skills only)
+// Deixe esta linha para habilitar o modificador de nível base renewal no dano de habilidades (apenas habilidades selecionadas)
 #define RENEWAL_LVDMG
 
-/// Renewal ASPD [malufett]
-/// (disable by commenting the line)
+/// ASPD Renewal [malufett]
+/// (desabilite comentando a linha)
 ///
-/// Leave this line to enable renewal ASPD
-/// - shield penalty is applied
-/// - AGI has a greater factor in ASPD increase
-/// - there is a change in how skills/items give ASPD
-/// - some skill/item ASPD bonuses won't stack
+/// Deixe esta linha para habilitar a ASPD renewal.
+/// - Penalidade de escudo é aplicada.
+/// - AGI tem um fator maior no aumento de ASPD.
+/// - Há uma mudança em como habilidades/itens concedem ASPD.
+/// - Alguns bônus de ASPD de habilidades/itens não serão acumulativos (stack).
 #define RENEWAL_ASPD
 
-/// Renewal stat calculations
-/// (disable by commenting the line)
+/// Cálculos de atributos (stats) Renewal
+/// (desabilite comentando a linha)
 ///
-/// Leave this line to enable renewal calculation for increasing status/parameter points
+/// Deixe esta linha para habilitar o cálculo renewal para o aumento de pontos de status/parâmetros
 #define RENEWAL_STAT
 
 #endif

@@ -1,12 +1,12 @@
 //-----------------------------------------
-// GRF Files
-// Add as many as needed.
+// Arquivos GRF
+// Adicione quantos forem necessários.
 //-----------------------------------------
 //grf: C:\Program Files\Gravity\RO\rdata.grf
 //grf: C:\Program Files\Gravity\RO\data.grf
 
 //-----------------------------------------
-// Data Directory
-// Use the base folder, not the data\ path.
+// Diretório de Dados (Data Directory)
+// Use a pasta base, não o caminho data\.
 //-----------------------------------------
 //data_dir: C:\Program Files\Gravity\RO\
