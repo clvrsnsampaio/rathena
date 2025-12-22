@@ -152,3 +152,8 @@ Thumbs.db
 
 # generated files
 generated
+
+# node
+node_modules
+
+/prisma/generated/prisma
