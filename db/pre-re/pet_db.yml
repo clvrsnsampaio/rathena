@@ -55,12 +55,33 @@ Header:
   Version: 1
 
 Body:
+  #############################################################
+  # PET CUSTOM
+  #############################################################
+  - Mob: HAZ_ALBEDO
+    TameItem: Very_Red_Juice
+    EggItem: Albedo_Egg
+    FoodItem: Pumpkin_Pie_
+    Fullness: 3
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bMaxHPRate,3;
+        bonus3 bAutoSpellWhenHit,"AL_HEAL",1,10;
+      }
+  #############################################################
   - Mob: PORING
     TameItem: Unripe_Apple
     EggItem: Poring_Egg
     EquipItem: Backpack
     FoodItem: Apple_Juice
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 50
     CaptureRate: 2000
     Script: >
@@ -76,6 +97,7 @@ Body:
     EquipItem: Backpack
     FoodItem: Yellow_Herb
     Fullness: 4
+    IntimacyStart: 1000
     IntimacyFed: 40
     CaptureRate: 1500
     Script: >
@@ -91,6 +113,7 @@ Body:
     EquipItem: Backpack
     FoodItem: Green_Herb
     Fullness: 5
+    IntimacyStart: 1000
     IntimacyFed: 30
     CaptureRate: 1000
     Script: >
@@ -106,6 +129,7 @@ Body:
     EquipItem: Silk_Ribbon
     FoodItem: Carrot_Juice
     Fullness: 4
+    IntimacyStart: 1000
     IntimacyFed: 40
     CaptureRate: 1500
     SpecialPerformance: false
@@ -122,6 +146,7 @@ Body:
     EquipItem: Tiny_Egg_Shell
     FoodItem: Red_Herb
     Fullness: 4
+    IntimacyStart: 1000
     IntimacyFed: 40
     CaptureRate: 2000
     Script: >
@@ -137,6 +162,7 @@ Body:
     EquipItem: Monster_Oxygen_Mask
     FoodItem: Pet_Food
     Fullness: 6
+    IntimacyStart: 1000
     IntimacyFed: 30
     CaptureRate: 1500
     Script: >
@@ -152,6 +178,7 @@ Body:
     EquipItem: Monster_Oxygen_Mask
     FoodItem: Iron_Ore
     Fullness: 5
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 1000
     Script: >
@@ -167,6 +194,7 @@ Body:
     EquipItem: Monster_Oxygen_Mask
     FoodItem: Red_Gemstone
     Fullness: 5
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 500
     Script: >
@@ -182,6 +210,7 @@ Body:
     EquipItem: Green_Lace
     FoodItem: Pet_Food
     Fullness: 7
+    IntimacyStart: 1000
     IntimacyFed: 40
     CaptureRate: 1500
     SpecialPerformance: false
@@ -198,6 +227,7 @@ Body:
     EquipItem: Transparent_Headgear
     FoodItem: Pet_Food
     Fullness: 6
+    IntimacyStart: 1000
     IntimacyFed: 40
     CaptureRate: 1000
     SpecialPerformance: false
@@ -214,6 +244,7 @@ Body:
     EquipItem: Rocker_Glasses
     FoodItem: Pet_Food
     Fullness: 1
+    IntimacyStart: 1000
     IntimacyFed: 30
     CaptureRate: 1500
     SpecialPerformance: false
@@ -230,6 +261,7 @@ Body:
     EquipItem: Bark_Shorts
     FoodItem: Pet_Food
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 30
     CaptureRate: 1500
     SpecialPerformance: false
@@ -246,6 +278,7 @@ Body:
     EquipItem: Bark_Shorts
     FoodItem: Pet_Food
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 1000
     SpecialPerformance: false
@@ -262,6 +295,7 @@ Body:
     EquipItem: Battered_Pot
     FoodItem: Pet_Food
     Fullness: 4
+    IntimacyStart: 1000
     IntimacyFed: 30
     CaptureRate: 1000
     Script: >
@@ -277,6 +311,7 @@ Body:
     EquipItem: Red_Muffler
     FoodItem: Pet_Food
     Fullness: 4
+    IntimacyStart: 1000
     IntimacyFed: 30
     CaptureRate: 1000
     Script: >
@@ -292,6 +327,7 @@ Body:
     EquipItem: Monkey_Circlet
     FoodItem: Banana_Juice
     Fullness: 5
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 1000
     Script: >
@@ -307,6 +343,7 @@ Body:
     EquipItem: Wild_Flower
     FoodItem: Pet_Food
     Fullness: 5
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 500
     Script: >
@@ -322,6 +359,7 @@ Body:
     EquipItem: Punisher
     FoodItem: Pet_Food
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 500
     SpecialPerformance: false
@@ -338,6 +376,7 @@ Body:
     EquipItem: Wig
     FoodItem: Pet_Food
     Fullness: 4
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 500
     SpecialPerformance: false
@@ -354,6 +393,7 @@ Body:
     EquipItem: Golden_Bell
     FoodItem: Pet_Food
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 500
     SpecialPerformance: false
@@ -370,6 +410,7 @@ Body:
     EquipItem: Queen's_Hair_Ornament
     FoodItem: Pet_Food
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 500
     SpecialPerformance: false
@@ -386,6 +427,7 @@ Body:
     EquipItem: Stellar_Hairpin
     FoodItem: Pet_Food
     Fullness: 4
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 500
     SpecialPerformance: false
@@ -403,6 +445,7 @@ Body:
     EquipItem: Pacifier
     FoodItem: Shoot
     Fullness: 2
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 500
     SpecialPerformance: false
@@ -421,6 +464,7 @@ Body:
     EquipItem: Skull_Helm
     FoodItem: Honey
     Fullness: 2
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 200
     SpecialPerformance: false
@@ -438,6 +482,7 @@ Body:
     EquipItem: Sword_Of_Grave_Keeper
     FoodItem: Pet_Food
     Fullness: 4
+    IntimacyStart: 1000
     IntimacyFed: 30
     CaptureRate: 500
     Script: >
@@ -452,6 +497,7 @@ Body:
     EggItem: Zherlthsh_Egg
     FoodItem: Immortal_Heart
     Fullness: 7
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 300
     SpecialPerformance: false
@@ -469,6 +515,7 @@ Body:
     EggItem: Alice_Egg
     FoodItem: White_Potion
     Fullness: 2
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 800
     SpecialPerformance: false
@@ -484,6 +531,7 @@ Body:
     EggItem: Rice_Cake_Egg
     FoodItem: Green_Herb
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 50
     CaptureRate: 2000
     Script: >
@@ -498,6 +546,7 @@ Body:
     EggItem: Santa_Goblin_Egg
     FoodItem: Scell
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 50
     CaptureRate: 2000
     SpecialPerformance: false
@@ -513,6 +562,7 @@ Body:
     EggItem: Chung_E_Egg
     FoodItem: Bun_
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 50
     CaptureRate: 2000
     SpecialPerformance: false
@@ -524,28 +574,28 @@ Body:
         bonus2 bSubRace,RC_DemiHuman,1;
         bonus2 bSubRace,RC_Player_Human,1;
       }
-# On official pre-renewal servers, only CHUNG_E (1519) was tameable.
-# Uncomment the following lines to enable CHUNG_E_ (1631) too.
-#  - Mob: CHUNG_E_
-#    TameItem: Tantanmen
-#    EggItem: Chung_E_Egg
-#    FoodItem: Bun_
-#    Fullness: 3
-#    IntimacyFed: 50
-#    CaptureRate: 2000
-#    SpecialPerformance: false
-#    Script: >
-#      .@i = getpetinfo(PETINFO_INTIMATE);
-#
-#      if( .@i >= PET_INTIMATE_LOYAL ){
-#        bonus bDef,1;
-#        bonus2 bSubRace,RC_DemiHuman,1;
-#        bonus2 bSubRace,RC_Player_Human,1;
-#      }
+  - Mob: CHUNG_E_
+    TameItem: Tantanmen
+    EggItem: Chung_E_Egg
+    FoodItem: Bun_
+    Fullness: 3
+    IntimacyStart: 1000
+    IntimacyFed: 50
+    CaptureRate: 2000
+    SpecialPerformance: false
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bDef,1;
+        bonus2 bSubRace,RC_DemiHuman,1;
+        bonus2 bSubRace,RC_Player_Human,1;
+      }
   - Mob: ECLIPSE_P
     EggItem: Spring_Rabbit_Egg
     FoodItem: Bok_Choy
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 50
     CaptureRate: 2000
     SpecialPerformance: false
@@ -554,6 +604,7 @@ Body:
     EggItem: Knife_Goblin_Egg
     FoodItem: Green_Apple
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 50
     CaptureRate: 800
     SpecialPerformance: false
@@ -562,6 +613,7 @@ Body:
     EggItem: Flail_Goblin_Egg
     FoodItem: Green_Apple
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 50
     CaptureRate: 800
     SpecialPerformance: false
@@ -570,6 +622,7 @@ Body:
     EggItem: Hammer_Goblin_Egg
     FoodItem: Green_Apple
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 50
     CaptureRate: 800
     SpecialPerformance: false
@@ -578,6 +631,7 @@ Body:
     EggItem: Red_Deleter_Egg
     FoodItem: Whole_Barbecue
     Fullness: 4
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 800
     SpecialPerformance: false
@@ -586,6 +640,7 @@ Body:
     EggItem: Diabolic_Egg
     FoodItem: Meat_Veg_Skewer
     Fullness: 2
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 800
     SpecialPerformance: false
@@ -594,6 +649,7 @@ Body:
     EggItem: Wanderer_Egg
     FoodItem: Spirit_Liquor
     Fullness: 2
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 800
     SpecialPerformance: false
@@ -608,6 +664,7 @@ Body:
     EggItem: New_Year_Doll_Egg
     FoodItem: Mojji
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 30
     CaptureRate: 800
     SpecialPerformance: false
@@ -617,6 +674,7 @@ Body:
     EquipItem: Windup_Spring
     FoodItem: Mystic_Stone
     Fullness: 7
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 1000
     SpecialPerformance: false
@@ -633,6 +691,7 @@ Body:
     EquipItem: Star_Hairband
     FoodItem: Small_Snow_Flower
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 1000
     SpecialPerformance: false
@@ -648,6 +707,7 @@ Body:
     EquipItem: Queen's_Coronet
     FoodItem: Apple_Pudding
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 1000
     SpecialPerformance: false
@@ -664,6 +724,7 @@ Body:
     EquipItem: Spirit_Chain_
     FoodItem: Damp_Darkness
     Fullness: 7
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 1000
     SpecialPerformance: false
@@ -680,6 +741,7 @@ Body:
     EquipItem: Nice_Badge
     FoodItem: Big_Cell
     Fullness: 7
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 1000
     SpecialPerformance: false
@@ -696,6 +758,7 @@ Body:
     EquipItem: Black_Butterfly_Mask
     FoodItem: Vital_Flower_
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 300
     SpecialPerformance: false
@@ -711,6 +774,7 @@ Body:
     EquipItem: Ball_Mask
     FoodItem: Vital_Flower
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 300
     SpecialPerformance: false
@@ -726,6 +790,7 @@ Body:
     EquipItem: Hell_Horn
     FoodItem: Fresh_Plant
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 300
     SpecialPerformance: false
@@ -741,6 +806,7 @@ Body:
     EquipItem: Wine_On_Sleeve
     FoodItem: Grilled_Rice_Cake
     Fullness: 7
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 1000
     SpecialPerformance: false
@@ -756,6 +822,7 @@ Body:
     EquipItem: Summer_Fan
     FoodItem: Well_Ripened_Berry
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
     SpecialPerformance: false
@@ -772,6 +839,7 @@ Body:
     EquipItem: Jade_Trinket
     FoodItem: Morning_Dew
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
     SpecialPerformance: false
@@ -788,6 +856,7 @@ Body:
     EquipItem: Apro_Hair
     FoodItem: Plant_Neutrient
     Fullness: 7
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 1000
     SpecialPerformance: false
@@ -803,6 +872,7 @@ Body:
     EquipItem: Death_Coil
     FoodItem: Sunset_On_The_Rock
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 1000
     SpecialPerformance: false
@@ -818,6 +888,7 @@ Body:
     EquipItem: Fashionable_Glasses
     FoodItem: Pumpkin_Pie_
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
     SpecialPerformance: false
@@ -834,6 +905,7 @@ Body:
     EquipItem: Golden_Earing
     FoodItem: Flavored_Alcohol
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 1000
     SpecialPerformance: false
@@ -849,6 +921,7 @@ Body:
     EquipItem: Green_Lucky_Bag
     FoodItem: Fish_With_Blue_Back
     Fullness: 7
+    IntimacyStart: 1000
     IntimacyFed: 20
     CaptureRate: 1000
     SpecialPerformance: false
@@ -865,6 +938,7 @@ Body:
     EquipItem: Round_Hair_Ornament
     FoodItem: Traditional_Cookie
     Fullness: 7
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 300
     SpecialPerformance: false
@@ -874,6 +948,7 @@ Body:
     EquipItem: Horn_Protector
     FoodItem: Flame_Gemstone
     Fullness: 3
+    IntimacyStart: 1000
     IntimacyFed: 10
     CaptureRate: 300
     SpecialPerformance: false
@@ -889,7 +964,7 @@ Body:
     EggItem: Mystic_Leaf_Cat_Ball
     Fullness: 0
     HungryDelay: 0
-    IntimacyStart: 0
+    IntimacyStart: 1000
     IntimacyFed: 0
     IntimacyOverfed: 0
     IntimacyOwnerDie: 0

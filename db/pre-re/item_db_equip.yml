@@ -36772,6 +36772,11 @@ Body:
     Name: Imp Egg
     Type: Petegg
     Buy: 20
+  - Id: 9151
+    AegisName: Albedo_Egg
+    Name: Albedo Egg
+    Type: Petegg
+    Buy: 20
   - Id: 10001
     AegisName: Skull_Helm
     Name: Skull Helm
