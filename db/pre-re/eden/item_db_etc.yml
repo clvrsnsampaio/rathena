@@ -88,15 +88,32 @@ Header:
   Type: ITEM_DB
   Version: 3
 
-Footer:
-  Imports:
-  - Path: db/pre-re/item_db_usable.yml
-  - Path: db/pre-re/item_db_equip.yml
-  - Path: db/pre-re/item_db_etc.yml
-  - Path: db/pre-re/eden/item_db_usable.yml
-  - Path: db/pre-re/eden/item_db_equip.yml
-  - Path: db/pre-re/eden/item_db_etc.yml
-  - Path: db/pre-re/custom/item_db_usable.yml
-  - Path: db/pre-re/custom/item_db_equip.yml
-  - Path: db/pre-re/custom/item_db_etc.yml
-
+Body:
+  - Id: 6219
+    AegisName: Para_Team_Mark
+    Name: Eden Group Mark
+    Type: Etc
+    Trade:
+      NoDrop: true
+      NoTrade: true
+      NoSell: true
+      NoCart: true
+      NoStorage: true
+      NoGuildStorage: true
+      NoMail: true
+      NoAuction: true
+  - Id: 6495
+    AegisName: Eden_Merit_Badge
+    Name: Eden Merit Badge
+    Type: Etc
+  - Id: 25223
+    AegisName: Para_Team_Coin
+    Name: Eden Group Coin
+    Type: Etc
+    Trade:
+      NoDrop: true
+      NoTrade: true
+      NoCart: true
+      NoGuildStorage: true
+      NoMail: true
+      NoAuction: true

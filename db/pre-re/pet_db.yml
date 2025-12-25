@@ -55,26 +55,6 @@ Header:
   Version: 1
 
 Body:
-  #############################################################
-  # PET CUSTOM
-  #############################################################
-  - Mob: HAZ_ALBEDO
-    TameItem: Very_Red_Juice
-    EggItem: Albedo_Egg
-    FoodItem: Pumpkin_Pie_
-    Fullness: 3
-    IntimacyStart: 1000
-    IntimacyFed: 15
-    CaptureRate: 1000
-    SpecialPerformance: false
-    Script: >
-      .@i = getpetinfo(PETINFO_INTIMATE);
-
-      if( .@i >= PET_INTIMATE_LOYAL ){
-        bonus bMaxHPRate,3;
-        bonus3 bAutoSpellWhenHit,"AL_HEAL",1,10;
-      }
-  #############################################################
   - Mob: PORING
     TameItem: Unripe_Apple
     EggItem: Poring_Egg
@@ -970,3 +950,7 @@ Body:
     IntimacyOwnerDie: 0
     CaptureRate: 5000
     SpecialPerformance: false
+
+Footer:
+  Imports:
+    - Path: db/pre-re/custom/pet_db.yml

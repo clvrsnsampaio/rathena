@@ -42535,35 +42535,7 @@ Body:
     ClientAttackMotion: 288
     DamageMotion: 864
     Ai: 20
-  - Id: 20021
-    AegisName: HAZ_ALBEDO
-    Name: Albedo
-    Level: 99
-    Hp: 23470
-    BaseExp: 6641
-    JobExp: 4314
-    Attack: 1476
-    Attack2: 2317
-    Defense: 39
-    MagicDefense: 44
-    Str: 99
-    Agi: 99
-    Vit: 99
-    Int: 99
-    Dex: 99
-    Luk: 99
-    AttackRange: 2
-    SkillRange: 10
-    ChaseRange: 12
-    Size: Large
-    Race: Demon
-    Element: Dark
-    ElementLevel: 4
-    WalkSpeed: 125
-    AttackDelay: 747
-    AttackMotion: 1632
-    ClientAttackMotion: 1440
-    DamageMotion: 576
-    Ai: 04
-    Modes:
-      Detector: true
+  
+Footer:
+  Imports:
+    - Path: db/pre-re/custom/mob_db.yml

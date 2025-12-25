@@ -1,5 +1,5 @@
-// O limite padrÃ£o interno Ã© de 128 linhas. Se precisar de mais, 
-// vocÃª precisarÃ¡ modificar a definiÃ§Ã£o MOTD_LINE_SIZE no arquivo pc.cpp.
+// O limite padrão interno é de 128 linhas. Se precisar de mais, 
+// você precisará modificar a definição MOTD_LINE_SIZE no arquivo pc.cpp.
 
 ^FFA500============================================================^000000
    ^FF8C00Bem-vindo ao Kitsu!^000000 
@@ -9,6 +9,6 @@
 ^FFD700*^000000 Por favor, denuncie qualquer erro (bug) que encontrar.
 ^FFD700*^000000 Acompanhe as nossas novidades e eventos semanais.
 
-^FF4500"Que a chama da Kitsu guie o seu caminho para a vitÃ³ria!"^000000
+^FF4500"Que a chama da Kitsu guie o seu caminho para a vitória!"^000000
 
 ^FFA500============================================================^000000

@@ -1,0 +1,79 @@
+###########################################################################
+# Items Custom
+###########################################################################
+
+Header:
+  Type: ITEM_DB
+  Version: 3
+
+Body:
+  - Id: 9151
+    AegisName: Albedo_Egg
+    Name: Albedo Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9152
+    AegisName: Beatrice_Egg
+    Name: Beatrice Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9153
+    AegisName: Asuna_Egg
+    Name: Asuna Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9154
+    AegisName: Kirito_Egg
+    Name: Kirito Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9155
+    AegisName: Silica_Egg
+    Name: Silica Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9156
+    AegisName: Leafa_Egg
+    Name: Leafa Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9157
+    AegisName: Emilia_Egg
+    Name: Emilia Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9158
+    AegisName: Rem_Egg
+    Name: Rem Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9159
+    AegisName: Ram_Egg
+    Name: Ram Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9160
+    AegisName: Eren_Egg
+    Name: Eren Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9161
+    AegisName: Levi_Egg
+    Name: Levi Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9162
+    AegisName: Mikasa_Egg
+    Name: Mikasa Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9163
+    AegisName: Ainz_Egg
+    Name: Ainz Egg
+    Type: Petegg
+    Buy: 20
+  - Id: 9164
+    AegisName: Shalltear_Egg
+    Name: Shalltear Egg
+    Type: Petegg
+    Buy: 20

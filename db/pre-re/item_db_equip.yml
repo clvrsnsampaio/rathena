@@ -36772,11 +36772,6 @@ Body:
     Name: Imp Egg
     Type: Petegg
     Buy: 20
-  - Id: 9151
-    AegisName: Albedo_Egg
-    Name: Albedo Egg
-    Type: Petegg
-    Buy: 20
   - Id: 10001
     AegisName: Skull_Helm
     Name: Skull Helm
@@ -41078,34 +41073,3 @@ Body:
     ArmorLevel: 1
     EquipLevelMin: 1
     View: 654
-  - Id: 12622
-    AegisName: Boarding_Halter
-    Name: Reins Of Mount
-    Type: Usable
-    Flags:
-        NoConsume: true
-    Delay:
-        Duration: 0
-        Status: All_Riding_Reuse_Limit
-    Trade:
-        NoDrop: true
-        NoTrade: true
-        NoSell: true
-        NoCart: true
-        NoStorage: true
-        NoGuildStorage: true
-        NoMail: true
-        NoAuction: true
-    Script: |
-        setmounting();
-    UnEquipScript: |
-        if (ismounting())
-           setmounting();
-  - Id: 480058
-    AegisName: C_Wing_Of_Angel_Move_GD
-    Name: Costume Wavy Golden Angel Wings
-    Type: Armor
-    Locations:
-        Costume_Garment: true
-    ArmorLevel: 1
-    View: 75

@@ -1,0 +1,222 @@
+###########################################################################
+# Pet Custom
+###########################################################################
+Header:
+  Type: PET_DB
+  Version: 1
+
+Body:
+  - Mob: HAZ_ALBEDO
+    TameItem: Unripe_Apple
+    EggItem: Albedo_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AttackRate: 3000
+    RetaliateRate: 10000
+    ChangeTargetRate: 10000
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bVit, 2;
+        bonus bDef, 3;
+        bonus3 bAutoSpellWhenHit, "AL_GUARD", 1, 50;
+      }
+  - Mob: HAZ_BEATRICE
+    TameItem: Unripe_Apple
+    EggItem: Beatrice_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bInt, 2;
+        bonus bMaxSPRate, 5;
+      }
+  - Mob: HAZ_ASUNA
+    TameItem: Unripe_Apple
+    EggItem: Asuna_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1500
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bAgi, 2;
+        bonus bAspdRate, 3;
+      }
+  - Mob: HAZ_KIRITO
+    TameItem: Unripe_Apple
+    EggItem: Kirito_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bStr, 2;
+        bonus bMaxHPRate, 3;
+      }
+  - Mob: HAZ_SILICA
+    TameItem: Unripe_Apple
+    EggItem: Silica_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bDex, 2;
+        bonus bCritical, 5;
+      }
+  - Mob: HAZ_LEAFA
+    TameItem: Unripe_Apple
+    EggItem: Leafa_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bAgi, 1;
+        bonus2 bMagicAddEle,Ele_Wind,5;
+      }
+  - Mob: HAZ_EMILIA
+    TameItem: Unripe_Apple
+    EggItem: Emilia_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bInt, 2;
+        bonus2 bMagicAddEle,Ele_Water,5;
+      }
+  - Mob: HAZ_REM
+    TameItem: Unripe_Apple
+    EggItem: Rem_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bStr, 2;
+        bonus bVit, 1;
+      }
+  - Mob: HAZ_RAM
+    TameItem: Unripe_Apple
+    EggItem: Ram_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bInt, 2;
+        bonus bCastrate, -5;
+      }
+  - Mob: HAZ_EREN
+    TameItem: Unripe_Apple
+    EggItem: Eren_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bStr, 3;
+        bonus bMaxHPRate, 5;
+      }
+  - Mob: HAZ_LEVI
+    TameItem: Unripe_Apple
+    EggItem: Levi_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bAgi, 3;
+        bonus bFlee, 10;
+      }
+  - Mob: HAZ_MIKASA
+    TameItem: Unripe_Apple
+    EggItem: Mikasa_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bStr, 2;
+        bonus bHit, 10;
+      }
+  - Mob: HAZ_AINZ
+    TameItem: Unripe_Apple
+    EggItem: Ainz_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bInt, 3;
+        bonus2 bMagicAddEle,Ele_Dark,5;
+      }
+  - Mob: HAZ_SHALLTEAR
+    TameItem: Unripe_Apple
+    EggItem: Shalltear_Egg
+    FoodItem: Pet_Food
+    IntimacyStart: 1000
+    IntimacyFed: 15
+    CaptureRate: 1000
+    SpecialPerformance: false
+    AllowAutoFeed: true
+    Script: >
+      .@i = getpetinfo(PETINFO_INTIMATE);
+      if( .@i >= PET_INTIMATE_LOYAL ){
+        bonus bStr, 2;
+        bonus2 bHpDrainRate,1,5;
+      }
