@@ -10,6 +10,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Albedo_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
@@ -29,6 +30,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Beatrice_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
@@ -44,6 +46,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Asuna_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1500
@@ -59,6 +62,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Kirito_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
@@ -74,6 +78,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Silica_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
@@ -89,6 +94,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Leafa_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
@@ -104,6 +110,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Emilia_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
@@ -119,6 +126,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Rem_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
@@ -134,6 +142,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Ram_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
@@ -149,6 +158,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Eren_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
@@ -164,6 +174,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Levi_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
@@ -179,6 +190,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Mikasa_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
@@ -194,6 +206,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Ainz_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
@@ -209,6 +222,7 @@ Body:
     TameItem: Unripe_Apple
     EggItem: Shalltear_Egg
     FoodItem: Pet_Food
+    Fullness: 0
     IntimacyStart: 1000
     IntimacyFed: 15
     CaptureRate: 1000
