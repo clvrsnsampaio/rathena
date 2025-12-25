@@ -629,14 +629,14 @@ moc_fild11,180,253,5	script	Cão Falante#para03	972,{
 			next;
 			mes "[Cão Falante]";
 			mes "Se sim, devo começar a proteger este oásis mais claramente?";
-			mes "Você consegue ver um Condor voando?";
+			mes "Você consegue ver um Hode se escondendo na areia?";
 			next;
 			mes "[Cão Falante]";
 			mes "Você pode assustá-los para mim?";
 			mes "Para que as pessoas possam usar este oásis com mais segurança e conforto.";
 			next;
 			mes "[Cão Falante]";
-			mes "Devemos caçar pelo menos 10 Condores, ok?";
+			mes "Devemos caçar pelo menos 10 Hodes, ok?";
 			mes "Vou dormir um pouco.";
 			mes "Krrrr woo bow...";
 			set para_suv01,2;
@@ -660,7 +660,7 @@ moc_fild11,180,253,5	script	Cão Falante#para03	972,{
 			mes "[Cão Falante]";
 			mes "Deixa pra lá.";
 			mes "Vamos encontrar o próximo alvo kk!";
-			mes "Ok. Vamos expulsar os Lobos do Deserto daqui.";
+			mes "Ok. Vamos expulsar os Andres daqui.";
 			next;
 			mes "[Cão Falante]";
 			mes "Se eles crescerem, se tornarão perigosos.";
@@ -668,7 +668,7 @@ moc_fild11,180,253,5	script	Cão Falante#para03	972,{
 			next;
 			mes "[Cão Falante]";
 			mes "Por que, por que você está me olhando assim?";
-			mes "Eles são lobos e eu sou um cachorro legal.";
+			mes "Eles são formigas e eu sou um cachorro legal.";
 			mes "Mas nem sempre fui um cachorro a minha vida inteira.";
 			next;
 			mes "[Cão Falante]";
@@ -687,9 +687,9 @@ moc_fild11,180,253,5	script	Cão Falante#para03	972,{
 			close;
 		}
 		mes "[Cão Falante]";
-		mes "Primeiro vamos seguir o pássaro careca e barulhento.";
-		mes "Sim, Condores.";
-		mes "Mate 10 Condores. Parece muito fácil, certo?";
+		mes "Primeiro vamos atrás daquelas criaturas que se escondem na areia.";
+		mes "Sim, Hodes.";
+		mes "Mate 10 Hodes. Parece muito fácil, certo?";
 		mes "Ah, se você estiver cansado, eu vou te ajudar.";
 		next;
 		mes "-Quando o cachorro latiu, seu HP e SP se recuperaram.-";
@@ -708,11 +708,11 @@ moc_fild11,180,253,5	script	Cão Falante#para03	972,{
 			mes "Ok, é o último passo!";
 			next;
 			mes "[Cão Falante]";
-			mes "Há um monstro irritante que se esconde na areia e envenena as pessoas do nada.";
+			mes "Há um monstro irritante que parece uma pilha de lama e ataca as pessoas do nada.";
 			next;
 			mes "[Cão Falante]";
 			mes "Todas as coisas bonitas têm algum veneno dentro, mas essas realmente matam.";
-			mes "Mate Escorpiões que são chamados de veneno do deserto!";
+			mes "Mate Mukas que são chamados de praga do deserto!";
 			next;
 			mes "[Cão Falante]";
 			mes "É o último passo, então vamos simplificar";
@@ -727,7 +727,7 @@ moc_fild11,180,253,5	script	Cão Falante#para03	972,{
 		mes "Sou um cachorro com um coração de ouro.";
 		next;
 		mes "[Cão Falante]";
-		mes "Depois de caçar os 10 Lobos do Deserto, volte novamente.";
+		mes "Depois de caçar os 10 Andres, volte novamente.";
 		mes "Ah, se você estiver cansado, eu vou te ajudar.";
 		next;
 		mes "-Quando o cachorro latiu, seu HP e SP se recuperaram.-";
@@ -749,7 +749,7 @@ moc_fild11,180,253,5	script	Cão Falante#para03	972,{
 			next;
 			mes "[Cão Falante]";
 			mes "Aqui aqui aqui.";
-			mes "Se eu cavar mais e mais, posso encontrar Escorpiões, mas";
+			mes "Se eu cavar mais e mais, posso encontrar Mukas, mas";
 			mes "este oásis será mais seguro com certeza.";
 			next;
 			mes "[Cão Falante]";
@@ -770,7 +770,7 @@ moc_fild11,180,253,5	script	Cão Falante#para03	972,{
 			close;
 		}
 		mes "[Cão Falante]";
-		mes "Vamos caçar apenas 5 Escorpiões.";
+		mes "Vamos caçar apenas 5 Mukas.";
 		mes "Para que possamos fazer a paz neste oásis.";
 		next;
 		mes "[Cão Falante]";

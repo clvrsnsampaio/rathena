@@ -99,6 +99,7 @@ moc_para01,48,175,3	script	86-90 Mission Board	857,{
 				mes ":: experiência salutar.";
 				erasequest .@quest;
 				getexp .@exp[.@quest-4167],0;
+				set #CASHPOINTS, #CASHPOINTS + 20;
 				close;
 			}
 		}
@@ -174,6 +175,7 @@ L_Quest:
 		if (.@playtime > -1) erasequest .@quest2;
 		setquest .@quest2;
 		getexp getarg(2),0;
+		set #CASHPOINTS, #CASHPOINTS + 20;
 		close;
 	}/* else if (.@hunting == 3) {
 //		recall_completequest .@quest1

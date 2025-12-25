@@ -94,6 +94,7 @@ L_Quest:
 			if (.@items)
 				delitem getarg(5),getarg(6);
 			getexp getarg(1),getarg(2);
+			set #CASHPOINTS, #CASHPOINTS + 10;
 			erasequest .@quest_id;
 			mes "Você completou a missão. Receba as recompensas.";
 		}
@@ -139,6 +140,7 @@ L_HuntingQuest:
 			if (.@items)
 				delitem getarg(3),getarg(4);
 			getexp getarg(1),getarg(2);
+			set #CASHPOINTS, #CASHPOINTS + 10;
 			erasequest .@quest_id;
 			mes "Você completou a missão. Receba as recompensas.";
 		}

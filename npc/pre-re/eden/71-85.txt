@@ -180,6 +180,7 @@ L_Quest:
 			if (.@quest == 5057) delitem 7187,30; //Festival_Mask
 			erasequest .@quest;
 			getexp .@exp,0;
+			set #CASHPOINTS, #CASHPOINTS + 15;
 			mes "Você recebeu EXP por terminar a missão.";
 			next;
 			return;
@@ -206,6 +207,7 @@ L_Quest:
 				if (.@quest == 5057) delitem 7187,30; //Festival_Mask
 				erasequest .@quest;
 				getexp .@exp,0;
+				set #CASHPOINTS, #CASHPOINTS + 15;
 				mes "Você recebeu EXP por terminar a missão.";
 			}
 		}/* else if (.@hunting == 3) {

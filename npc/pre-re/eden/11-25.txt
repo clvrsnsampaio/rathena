@@ -161,6 +161,7 @@ L_Quest:
 		erasequest .@quest_id;
 		setquest .@quest_id+10;
 		getexp getarg(2),0;
+		set #CASHPOINTS, #CASHPOINTS + 1;
 		close;
 	}
 }
